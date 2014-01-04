@@ -1,0 +1,4 @@
+#!/bin/sh
+gcc -I$WIGDIR/lib ../benchmark/GroupAA.c -o ../benchmark/GroupAA.cgi
+chmod 755 ../benchmark/GroupAA.cgi
+mv -f ../benchmark/GroupAA.cgi ~/public_html/cgi-bin
